@@ -1,0 +1,7 @@
+install nyu muna digitalPersonaClient.Setup64.exe
+
+after nyan install nyu ung 4500_wbf_driver_5.0.0.5_rs3.zip
+
+then restart
+
+tapus check nyu biometric kung may ilaw

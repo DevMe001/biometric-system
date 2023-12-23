@@ -1,0 +1,57 @@
+
+
+
+  // public function deleteYearLevel($id){
+  //   // validate if data exists
+  //   $query = 'DELETE FROM year WHERE id = :id';
+  //   $where = array(':id' => $id);
+  //   $result = $this->db->executeQuery($query,$where);
+
+  //   $response = array();
+
+  //   if($result){
+  //     $response = array('success' => true, 'message' => 'Data successfully deleted');
+  //   }
+  //   else{
+  //     $response = array('success' => false, 'message' => 'Failed to delete data');
+  //   }
+
+  //   echo json_encode($response);
+
+  // }
+
+  // public function updateYearLevel($id,$name,$type){
+  //   // validate if data exists
+  //   $query = 'SELECT * FROM year WHERE name = :name AND type = :type';
+  //   $where = array(':name' => $name, ':type' => $type);
+  //   $result = $this->db->fetchQuery($query,$where);
+
+  //   $response = array();
+
+  //   if($result->rowCount() > 0){
+
+  //     $response = array('success' => false, 'message' => 'Data already exists');
+
+  //   }
+  //   else{
+  //     // insert data
+  //     $query = 'UPDATE year SET name = :name, type = :type WHERE id = :id';
+  //     $where = array(':name' => $name, ':type' => $type, ':id' => $id);
+  //     $result = $this->db->executeQuery($query,$where);
+  //     if($result){
+  //       $response = array('success' => true, 'message' => 'Data successfully updated');
+
+  //     }
+  //     else{
+  //       $response = array('success' => false, 'message' => 'Failed to update data');
+
+  //     }
+  //   }
+
+  //   echo json_encode($response);
+
+  // }
+
+
+  ///////////////////////// END YEAR LEVEL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
